@@ -1,0 +1,7 @@
+<view class="container">
+  <image src="https://ss0.bdstatic.com/6ONWsjip0QIZ8tyhnq/it/u=1710103089,652323862&fm=202&gp=0.jpg&w_h=121_75&cs=1710103089,652323862&ow_h=121_75&src=2020" class="user-avatar"></image>
+  <text class="user-name">Hello Monster</text>
+  <view class="moto-container" bindtap="onTap">
+    <text class="moto">开始</text>
+  </view>
+</view>

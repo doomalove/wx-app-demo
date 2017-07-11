@@ -1,0 +1,19 @@
+<view class="container">
+  <image class="head-image" src="/images/banner.png"></image>
+  <image class="audio" src="/images/Shape_h.png"></image>
+  <view class="author-date">
+    <image class="avatar" src="/images/tx.png"></image>
+    <text class="author">Monster</text>
+    <text class="const-text">发表于</text>
+    <text class="date">三天前</text>
+  </view>
+  <text class="title">{{postData.noticename}}</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image catchtap="toastTest" src="/images/eye1.png"></image>
+      <image src="/images/eye2.png" class="share-img"></image>
+    </view>
+    <view class="horizon"></view>
+  </view>
+  <text class="detail">{{postData.content}}</text>
+</view>
